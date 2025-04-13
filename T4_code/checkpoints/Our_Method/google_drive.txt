@@ -1,3 +1,3 @@
-T3-Pretrained:
+T3-Pretrained:https://drive.google.com/file/d/1yd2anxjS5QlaQek2H666GQH9G6RXsdaj/view?usp=sharing
 
 T4:https://drive.google.com/file/d/14PeERmQnT1ETa7CojmpPDsMxSbYQ4FNe/view?usp=sharing
