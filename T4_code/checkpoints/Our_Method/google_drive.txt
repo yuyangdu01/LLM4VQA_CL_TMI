@@ -1,4 +1,6 @@
-T3-Result:https://drive.google.com/file/d/1PVt5IEkZ6019BaVnR9vqYJmpADHn3Tz9/view?usp=sharing
+T1-Pretrained:https://drive.google.com/file/d/13epWr8YZaugM7ijDEpYU-eD5f3-6KQ1C/view?usp=sharing
+
+T2-Pretrained:https://drive.google.com/file/d/1gpZflPtI894x3a45QA76HRQKiQuBWj5H/view?usp=sharing
 
 T3-Pretrained:https://drive.google.com/file/d/1yd2anxjS5QlaQek2H666GQH9G6RXsdaj/view?usp=sharing
 
