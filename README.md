@@ -11,11 +11,12 @@
 
 
 ## Data Preparation
-* For datasets, we use [EndoVis17](https://arxiv.org/abs/2305.11692), [EndoVis18](https://arxiv.org/abs/2206.11053), [DAISI-VQA](https://github.com/yuyangdu01/LLM-CL-VQA/tree/main/DAISI_VQA), [LRSP-VQA](LRSP-VQA)
+* For datasets, we use [EndoVis17](https://arxiv.org/abs/2305.11692), [EndoVis18](https://arxiv.org/abs/2206.11053), [DAISI-VQA](https://github.com/yuyangdu01/LLM-CL-VQA/tree/main/DAISI_VQA), [LRSP-VQA](LRSP_VQA)
 
-* How we constructed the DAISI-VQA dataset:
+* How we constructed the LRSP-VQA dataset:
 
-  The original DAISI dataset contains images and instructional texts of various surgical procedures on different organs. Each procedure consists of multiple images with corresponding instructional texts. We first clean the original DAISI dataset by deleting irrelevant images and confusing descriptions. We then generate QA pairs according to the text description for each image. Eventually, we obtained a new VQA dataset referred to as DAISI-VQA. Please see our paper for details about using in-context learning (ICL) for QA pair generation.
+  The LRSP-VQA dataset was built using 36 robotic surgery videos from YouTube, segmented into 150 phase-aligned clips to maintain instrument consistency. From these, over 10,000 frames were extracted and paired with corresponding transcribed surgical narrations. Using GPT-3.5, QA pairs were automatically generated from these textual descriptions (following DAISI-VQA's methodology), followed by expert validation to ensure accuracy.
+
 
 * Training and test data split
 
@@ -24,6 +25,8 @@
    EndoVis18: a VQA dataset obtained from 14 surgical videos. We use 9014 QA pairs in the training set and 2769 QA pairs in the testing set.
   
    DAISI-VQA: in total 545 QA pairs in the dataset. 80% of the data is used in the training set, while the rest 20% is used in the testing set.
+
+   LRSP-VQA: in total 1077 QA pairs in the dataset. 80% of the data is used in the training set, while the rest 20% is used in the testing set.
 
 ## Environment & Setup
 * See the environment and setups in our [Tutorial in Jupyter Notebook](t4_code/OurMethod_GitHub_OpenSource.ipynb).
