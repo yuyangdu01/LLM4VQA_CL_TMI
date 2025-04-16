@@ -4,7 +4,7 @@
 ## Introduction
 * This repository contains the PyTorch implementation for our paper "LMT++: Adaptively Collaborating LLMs with Multi-specialized Teachers for Continual VQA in Robotic Surgical Videos", which has been submitted to IEEE Transactions on Medical Imaging (currently under major revision).
 
-* For the original ICRA 2024 implementation, please refer to our conference version repository, see [here](https://github.com/yuyangdu01/LLM-CL-VQA).
+* This work is a comprehansive extension of our previous project submmited to ICRA 2024. For the original ICRA 2024 implementation, please refer to our conference version repository, see [here](https://github.com/yuyangdu01/LLM-CL-VQA).
 
 * [Our demo video](https://youtu.be/sSCRLyY355c)
 [![](https://i.ytimg.com/vi/sSCRLyY355c/maxresdefault.jpg)](https://youtu.be/sSCRLyY355c "")
