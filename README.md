@@ -11,7 +11,7 @@
 
 
 ## Data Preparation
-* For datasets, we use [EndoVis17](https://arxiv.org/abs/2305.11692), [EndoVis18](https://arxiv.org/abs/2206.11053), [DAISI-VQA](DAISI_VQA). 
+* For datasets, we use [EndoVis17](https://arxiv.org/abs/2305.11692), [EndoVis18](https://arxiv.org/abs/2206.11053), [DAISI-VQA](https://github.com/yuyangdu01/LLM-CL-VQA/tree/main/DAISI_VQA), [LRSP-VQA](LRSP-VQA)
 
 * How we constructed the DAISI-VQA dataset:
 
