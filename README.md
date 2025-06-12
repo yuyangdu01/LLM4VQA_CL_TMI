@@ -55,12 +55,12 @@
 ## Citation
 If this repository is useful for your research, please cite:
 ```
-@inproceedings{chen2024llm,
-  title={LLM-Assisted Multi-Teacher Continual Learning for Visual Question Answering in Robotic Surgery},
-  author={Chen, Kexin and Du, Yuyang and You, Tao and Islam, Mobarakol and Guo, Ziyu and Jin, Yueming and Chen, Guangyong and Heng, Pheng-Ann},
-  booktitle={2024 IEEE International Conference on Robotics and Automation (ICRA)},
-  year={2024},
-  organization={IEEE}
+@article{du2025lmt,
+  title={LMT++: Adaptively Collaborating LLMs with Multi-specialized Teachers for Continual VQA in Robotic Surgical Videos},
+  author={Du, Yuyang and Chen, Kexin and Zhan, Yue and Low, Chang Han and Islam, Mobarakol and Guo, Ziyu and Jin, Yueming and Chen, Guangyong and Heng, Pheng-Ann},
+  journal={IEEE Transactions on Medical Imaging},
+  year={2025},
+  publisher={IEEE}
 }
 ```
 ### Questions
